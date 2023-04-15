@@ -1,5 +1,13 @@
 ﻿using OpenClose;
 
+/**
+ ************************************ Demo - Escenario ********************************************
+ * Tenemos un proyecto que tiene una clase EmployeeFullTime para empleados a tiempo completo      *
+ * y EmployeePartTime para medio tiempo y necesitamos agregar EmployeeContractor para empleados   *
+ * externos cumpliendo con el principio Abierto/Cerrado.                                          *
+ **************************************************************************************************
+ */
+
 CalculateSalaryMonthly(new List<object>() {
     new EmployeeFullTime("Pepito Pérez", 160),
     new EmployeePartTime("Manuel Lopera", 180)
