@@ -1,5 +1,10 @@
 using System.Text;
-
+/**
+ ************************************ Demo - Escenario ********************************************
+ * Tenemos una clase StudentRepository encargada de administrar los datos para el modelo student, *
+ * pero en este momento no cumple con el principio de responsabilidad única, debe solucionarse.   *
+ **************************************************************************************************
+ */
 namespace SingleResponsability
 {
     public class StudentRepository
