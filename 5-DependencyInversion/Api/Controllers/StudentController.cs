@@ -1,7 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 
 namespace DependencyInversion.Controllers;
-
+/**
+ ************************************ Demo - Escenario ***************************************************
+ * Tenemos una API que devuelve una lista de estudiantes. Esta API utiliza un repositorio que devuelve   *
+ * una colección de datos y utiliza una bitácora (logbook) para guardar los eventos o llamadas a la API. *
+ * Debemos aplicar el principio de inversión de la dependencia en esta API.                              *
+ *********************************************************************************************************
+ */
 [ApiController, Route("student")]
 public class StudentController : ControllerBase
 {
